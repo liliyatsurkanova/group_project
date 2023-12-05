@@ -5,7 +5,53 @@
 
 }
 
-h1 {
-    font-family: "Oswald", sans-serif;
-    font-size: large;
+html
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+
+/* стили к header начало */
+.logo__header {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    
+} 
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    
+}
+.menu {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    
+}
+
+.menu a {
+    padding: 20px;
+}
+
+
+.header__menu {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+/* стили к header конец */
