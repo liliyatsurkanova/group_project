@@ -55,3 +55,92 @@ ul {
     width: 100%;
 }
 /* стили к header конец */
+
+/* стили к div функциональное питание начало */
+
+.block__title {
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    padding: 100px;
+
+}
+
+.block__text {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+    
+}
+
+.block__button {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background: #68B738;
+    border: none;
+    padding: 15px 18px;
+    
+}
+
+.image {
+    
+
+}
+
+/* стили к div функциональное питание конец */
+
+
+/* стили к section class=map начало*/
+.map {
+    position: relative;
+}
+
+.info {
+    width: 19vw;
+    display: flex;
+    position:absolute;
+    bottom: 60px;
+    left: 100px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.info__title {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.info__text {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: normal;
+}
+
+/* стили к section class=map конец*/
+
+
+/* footer стили начало */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    height: 5vw;
+}
+
+.block2__icon {
+    margin-right: 20px;
+}
+/* footer стили конец */
