@@ -95,7 +95,21 @@ ul {
 
 /* стили к div функциональное питание конец */
 
+/* стили к section class=card начало */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-image: url("grey back.png");
+}
+/* стили к section class=card конец */
+.ellipse {
+    width: 100px;
+}
 
+.cat-slim {
+    width: 100px;
+    background-image: url("Ellipse 1.png");
+}
 /* стили к section class=map начало*/
 .map {
     position: relative;
