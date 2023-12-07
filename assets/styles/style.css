@@ -126,7 +126,7 @@ ul {
 }
 
 .card_title {
-    font-family: Oswald;
+    font-family: "Oswald", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 36px;
@@ -144,7 +144,7 @@ ul {
 }
 
 .slim {
-    font-family: Oswald;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -170,7 +170,7 @@ ul {
 }
 
 .card2_title {
-    font-family: Oswald;
+    font-family: "Oswald", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 36px;
@@ -188,7 +188,7 @@ ul {
 }
 
 .pro {
-    font-family: Oswald;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -203,6 +203,49 @@ ul {
     justify-content: space-evenly;
 }
 /* стили к div class=cards конец */
+
+/* стили к div class=work начало*/
+.how {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: start;
+
+}
+
+.work_stage {
+    display: flex;
+    flex-direction: row;
+}
+
+.work_stage_cube {
+    width: 80px;
+    height: 80px;
+    top: 1353px;
+    left: 110px;
+    padding: 10px;
+
+}
+
+.work_stage_txt {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 80px;
+    background-image: url("");
+}
+
+.work {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* стили к div class=work конец */
 
 /* стили к section class=map начало*/
 .map {
