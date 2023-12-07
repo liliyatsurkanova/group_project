@@ -61,17 +61,19 @@ ul {
 }
 
 .block {
-    padding-top: 80px;
+    padding-top: 110px;
 }
 
 .image {
     display: flex;
+    position: relative;
 }
 
 .image__jar {
     width: 500px;
     height: 470px;
-    padding-top: 80px;
+    padding-top: 110px;
+    
     
 }
 
@@ -114,7 +116,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: rgb(216, 211, 211);
-    width: 450px;
+    width: 25vw;
     padding: 25px;
 }
 
@@ -125,7 +127,7 @@ ul {
     left: 162px;
 }
 
-.card_title {
+.card__title {
     font-family: "Oswald", sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -134,7 +136,7 @@ ul {
     text-align: left;
 }
 
-.card_text {
+.card__text {
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
@@ -158,7 +160,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: rgb(216, 211, 211);
-    width: 450px;
+    width: 25vw;
     padding: 25px;
 }
 
@@ -169,7 +171,7 @@ ul {
     left: 793px;
 }
 
-.card2_title {
+.card2__title {
     font-family: "Oswald", sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -178,7 +180,7 @@ ul {
     text-align: left;
 }
 
-.card2_text {
+.card2__text {
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
@@ -201,6 +203,7 @@ ul {
 .cards {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 80px;
 }
 /* стили к div class=cards конец */
 
@@ -215,12 +218,12 @@ ul {
 
 }
 
-.work_stage {
+.work__stage {
     display: flex;
     flex-direction: row;
 }
 
-.work_stage_cube {
+.work__stage_cube {
     width: 80px;
     height: 80px;
     top: 1353px;
@@ -229,7 +232,7 @@ ul {
 
 }
 
-.work_stage_txt {
+.work__stage_txt {
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
@@ -250,6 +253,7 @@ ul {
 /* стили к section class=map начало*/
 .map {
     position: relative;
+    
 }
 
 .info {
@@ -289,6 +293,7 @@ ul {
     align-items: center;
     background-color: #F2F2F2;
     height: 5vw;
+    
 }
 
 .block2__icon {
