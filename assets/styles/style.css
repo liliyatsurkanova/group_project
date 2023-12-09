@@ -217,9 +217,36 @@ ul {
 
 }
 
-.work__stage {
-    width: 230px;
-    
+.work__stage1 {
+    width: 240px;
+    height: 260px;
+    background-image: url(/assets/images/1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.work__stage2 {
+    width: 240px;
+    height: 260px;
+    background-image: url(/assets/images/2.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.work__stage3 {
+    width: 240px;
+    height: 260px;
+    background-image: url(/assets/images/3.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.work__stage4 {
+    width: 240px;
+    height: 260px;
+    background-image: url(/assets/images/4.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
 }
 
 .work__stage_cube {
@@ -249,6 +276,74 @@ ul {
 }   
 
 /* стили к div class=work конец */
+
+/* стили к div class=example начало */
+
+.live {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: start;
+    padding-left: 60px;
+}
+
+.example__left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.example__left__image {
+    width: 200px;
+}
+
+.example__left__text1 {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 60px;
+
+}
+
+.example__left__text2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.example__left__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.example__left__p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.example__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #F2F2F2;
+}
+
+.example {
+    display: flex;
+}
 
 /* стили к section class=map начало*/
 .map {
