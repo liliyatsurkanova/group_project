@@ -139,7 +139,6 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
@@ -159,7 +158,7 @@ ul {
     flex-direction: column;
     background-color: #F2F2F2;
     width: 25vw;
-    padding: 25px;
+    padding: 35px;
 }
 
 .catback2 {
@@ -194,6 +193,7 @@ ul {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: start;
+    padding: 42px 0;
 }
 /* стили к section class=card2 конец */
 
@@ -231,6 +231,7 @@ ul {
     background-image: url(/assets/images/2.png);
     background-repeat: no-repeat;
     background-position: 100%;
+    
 }
 
 .work__stage3 {
@@ -397,7 +398,8 @@ ul {
 /* footer стили конец */
 
 
-/* адаптивная верстка */
+
+/* Адаптивная верстка Header начало */
 
 @media (max-width: 768px) {
     .menu__link {
@@ -436,12 +438,91 @@ ul {
         
         
     }
+/* адаптивная верстка Header конец */
+
+
+/*Адаптив к блоку "Как это работает" начало */
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+/*Адаптив к блоку "Как это работает" конец */
+
+
+/* Адаптив к блоку "Живой пример" начало */
+.example {
+    display: flex;
+    flex-direction: column;
+
 }
 
-@media (max-width: 768px) {
+.example__right {
+    background-color: #F2F2F2;
+    width: 100%;
+    
+}
 
-    .cards {
-        display: flex;
-        /* flex-direction: column; */
+.example__left {
+    width: 100%;
+    background-color: white;
+}
+
+.example__left__images {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 60px;
+
+}
+
+.example__left__p {
+display: flex;
+justify-content: flex-start;
+padding-left: 60px;
+
+}
+
+
+
+/* Адаптив к блоку "Живой пример" конец */
+
+
+/* Адаптив к блоку карты и "сотрудничество" начало */
+.map {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.map__yandex {
+    position: relative;
+    z-index: 0;
+}
+
+.info {
+    display: flex;
+    position: static;
+    width: 40vw;
+    
+}
+
+.info__text {
+    padding-left: 350px;
+    font-size: 16px;
+    
+}
+/* Адаптив к блоку карты и "сотрудничество" конец */
+
+
+/* адаптивная верстка Footer начало */
+
+    .footer {
+    display: flex;
+    height: 10vw;
     }
 }
+/* адаптивная верстка Footer конец */
+
+
+
+
