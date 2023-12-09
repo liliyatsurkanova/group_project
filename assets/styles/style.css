@@ -300,3 +300,43 @@ ul {
     margin-right: 20px;
 }
 /* footer стили конец */
+
+
+/* адаптивная верстка */
+
+@media (max-width: 768px) {
+    .menu__link {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+
+    .image__jar2 {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        margin: -30px;
+        
+        word-wrap: break-word
+    }
+
+
+
+
+
+    .button__one {
+    padding-top: 20px;
+    
+    }
+}
