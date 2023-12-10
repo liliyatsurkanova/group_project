@@ -228,7 +228,7 @@ ul {
 .work__stage2 {
     width: 240px;
     height: 260px;
-    background-image: url("..images/2.png");
+    background-image: url("../images/2.png");
     background-repeat: no-repeat;
     background-position: 100%;
     
@@ -237,7 +237,7 @@ ul {
 .work__stage3 {
     width: 240px;
     height: 260px;
-    background-image: url("..images/3.png");
+    background-image: url("../images/3.png");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -245,7 +245,7 @@ ul {
 .work__stage4 {
     width: 240px;
     height: 260px;
-    background-image: url("..images/4.png");
+    background-image: url("../images/4.png");
     background-repeat: no-repeat;
     background-position: 100%;
 }
